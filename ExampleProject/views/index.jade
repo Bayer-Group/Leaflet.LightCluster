@@ -1,0 +1,14 @@
+extends layout
+
+block content
+
+    <section class="inheritance">
+    <div class="movable-things" style="padding-top: 10px;">Look at the map!!!</div>
+    <div id="map" class="inheritance"></div>
+    <div class="slideout-menu">
+    <label class="control-label" class="inheritance"> Selected Data <a class="slideout-menu-toggle" onclick=SlideOutMenuCommon.slideOutMenu.toggleClose()>x</a></label>
+    <ul id="dataSpace">
+    </ul>
+    </div>
+    </section>
+    script(src='/javascripts/LightClusterExample.js')

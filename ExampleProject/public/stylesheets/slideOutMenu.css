@@ -1,0 +1,126 @@
+
+.slideout-menu {
+  position: absolute;
+  top: 45px;
+  bottom: 0;
+  margin-top: 5px;
+  padding-top: 15px;
+  padding-left: 5px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  width: auto;
+  left: 0;
+  height: inherit;
+  max-height: 600px;
+  background: #fff;
+
+  border-top: outset;
+  border-bottom: outset;
+  border-left: inset;
+  border-right: outset;
+  z-index: 0;
+}
+
+.slideout-menu label {
+  height: inherit;
+  max-height: 10%;
+  color: black;
+  margin-bottom: -1%;
+  width: 100%;
+  padding-top: inherit;
+  padding-left: inherit;
+  padding-right: inherit;
+  padding-bottom: inherit;
+}
+
+.slideout-menu h3 {
+  position: relative;
+  padding: 12px 10px;
+  color: #2980b9;
+  font-size: 1.2em;
+  font-weight: 400;
+  background: #fff;
+}
+.slideout-menu .slideout-menu-toggle {
+  position: absolute;
+  top: 1%;
+  right: 1%;
+  display: inline-block;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  padding-right: 2%;
+  padding-left: 2%;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  background: #ccc;
+  color: #222;
+  text-decoration: none;
+  vertical-align: top;
+}
+.slideout-menu .slideout-menu-toggle:hover {
+  color: #fff;
+}
+
+.slideout-menu ul {
+  list-style: none;
+  font-weight: 300;
+  height: auto;
+  max-height: 94%;
+  border-top: inset;
+  border-bottom: inset;
+  border-right: inset;
+  padding-left: 0px;
+  overflow: auto;
+  width: auto;
+}
+
+.slideout-menu ul li {
+  background: gainsboro;
+  border-top: 1px solid #454545;
+  border-bottom: 1px solid #454545;
+  border-left: 2px solid #454545;
+  border-right: 2px solid #454545;
+  padding: 5px;
+  width: auto;
+}
+.slideout-menu ul li a {
+  position: relative;
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.slideout-menu ul li a:hover {
+  background: #999;
+  color: #fff;
+}
+
+.slideout-menu ul li a.selected {
+  background: #999;
+  color: #fff;
+}
+
+.slideout-menu ul li a i {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  opacity: .5;
+}
+
+.movable-things {
+  position: relative;
+  width: inherit;
+  max-width: inherit;
+  margin: 1px 1px 1px 1px;
+  height: inherit;
+  max-height: 3%;
+}
+
+.inheritance {
+  height: 100%;
+  max-height: 100%;
+  top: inherit;
+  width: inherit;
+  max-width: 100%;
+}

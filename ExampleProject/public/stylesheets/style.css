@@ -1,0 +1,14 @@
+#map {
+    height: auto;
+    max-height: 100%;
+    min-height: 600px;
+    width: auto;
+    max-width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+
+.leaflet-popup {
+  z-index: 1000;
+}
