@@ -1,0 +1,34 @@
+{
+  "name": "leaflet.lightcluster",
+  "version": "1.0.0",
+  "description": "An extension for Leaflet that allows a server side clustering solution for geospatial data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter list spec/*",
+    "test:cov": "istanbul cover _mocha -R spec && open coverage/lcov-report/index.html"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "istanbul": "^0.3.17",
+    "jsdom": "^6.5.1",
+    "leaflet": "^0.7.3",
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalebCourier/Leaflet.LightCluster.git"
+  },
+  "keywords": [
+    "leaflet",
+    "mapping",
+    "geospatial",
+    "clustering"
+  ],
+  "author": "Caleb Courier <caleb.courier@gmail.com> (https://github.com/CalebCourier)",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/CalebCourier/Leaflet.LightCluster/issues"
+  },
+  "homepage": "https://github.com/CalebCourier/Leaflet.LightCluster#readme"
+}
